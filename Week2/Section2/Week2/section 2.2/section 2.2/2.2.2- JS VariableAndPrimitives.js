@@ -1,7 +1,7 @@
 // create a variable called "name" that references a string
-
+let name ="Maxwell";
 // create a variable called "favoriteSong" that references a string
-let favoriteSong ="I wanna stay at your house"
+let favoriteSong ="I wanna stay at your house";
 // create a variable called "wage" that references a number
 let wage = 20;
 // create a variable called "age" that references a number
@@ -20,8 +20,8 @@ favoriteSong ="stary heavens"
 
 // You no longer like the type of data stored in "favoriteThing"
 // Reassign "favoriteThing" to a different primitive data type and print its type
-favoriteSong= 42;
-console.log(typeof(favoriteSong));
+favoriteThing= 42;
+console.log(typeof(favoriteThing));
 
 // Happy Birthday!
 // Reassign "age" to a new value
@@ -35,4 +35,4 @@ wage= 32;
 
 // use "console.log()" and "+" to print a sentence that includes two of the above variables
 
-console.log("hello my name is Maxwell I am currently" + age+ "years old." +" my favorite song is" + favoriteSong +"by the day after tomorrow .")
+console.log("hello my name is Maxwell I am currently "  + age + " years old." +" my favorite song is " + favoriteSong +" by the day after tomorrow .")
