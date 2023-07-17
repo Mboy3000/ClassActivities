@@ -18,8 +18,10 @@ console.log(NaN || !"true");
 // "full menu" if the age is over 10,
 // and "kids menu" if the age is less than 10
 
-let age;
+let age= 9;
 
+const menu = age > 10 ? "full menu" : "kids menu";
+console.log(menu); 
 // Using only logical operators (no comparison operators),
 // write an if statement that prints...
 //  "The number is zero" when num is 0.
@@ -27,3 +29,8 @@ let age;
 let num = 0;
 
 // Write your if statement here *
+if (!num && num === 0) {
+  console.log("The number is zero"); // This will print "The number is zero" if num is 0.
+} else {
+  console.log("The number is not zero");
+}
